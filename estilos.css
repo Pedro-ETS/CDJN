@@ -1,0 +1,242 @@
+body{
+    padding-top: 60px;
+	background-color: #fdff93;
+}
+nav{
+	background-color: #757700;
+}
+.btn{
+	background-color: #757700;
+	border-color: #757700;
+    color:#fff;
+}
+.btn:hover{
+	background-color: #757700;
+	border-color: #757700;
+    color:#fff;
+}
+.text-white{
+    color:#fff;
+}
+
+.navbar-doublerow > .navbar{
+	display: block;
+	padding: 0px auto;
+	margin: 0px auto;
+	min-height: 25px;
+}
+
+.navbar-doublerow .navbar-down .navbar-brand {
+
+	padding: 0px auto;
+	float: left;
+	color: #fff;
+	font-size: 30px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+
+	font-size: 15px;
+	color: #fff;
+}
+.navbar-doublerow .navbar-down .dropdown-toggle:hover {
+	background-color: #b0b320;
+	color: black;
+}
+.dropdown-menu{
+	background-color: #757700;
+
+}
+.dropdown-menu li>a:hover{
+	background-color: #b0b320;
+	color: black;
+}
+.badge-light{
+	background-color: #b0b320;
+
+}
+#ocupacion:hover{
+	color: white;
+}
+
+
+
+
+
+
+#resguardos{
+	border: 1px solid #000000;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	display: flex;
+	flex-direction: column;
+}
+.fila{
+	display: flex;
+	flex-direction: row;
+}
+.cajon{
+	border: 1px solid black;
+	background-color: green;
+	text-align: center;
+	color: white;
+	width: 100%;
+	padding: 1%;
+}
+.fila .cajon img{
+	width: 50%;
+	margin-bottom: 5px;
+}
+img{
+	height: 70px;
+}
+
+#miGrafica{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.autocomplete {
+	position: relative;
+  }
+  
+  input {
+	border: 1px solid transparent;
+	background-color: #f1f1f1;
+	padding: 10px;
+	font-size: 16px;
+  }
+.autocomplete-items {
+	position: absolute;
+	border: 1px solid #d4d4d4;
+	border-bottom: none;
+	border-top: none;
+	z-index: 99;
+	/*position the autocomplete items to be the same width as the container:*/
+	top: 100%;
+	left: 0;
+	right: 0;
+  }
+  .autocomplete-items div {
+	padding: 10px;
+	cursor: pointer;
+	background-color: #fff; 
+	border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+	background-color: #e9e9e9; 
+  }
+  .autocomplete-active {
+	background-color: DodgerBlue !important; 
+	color: #ffffff; 
+  }
+
+
+
+  
+#autoComplete_list {
+    z-index: 1;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all -webkit-transform 0.1s ease;
+  }
+  #autoComplete_list1 {
+    z-index: 1;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all -webkit-transform 0.1s ease;
+  }
+  
+  .autoComplete_result {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.15rem auto;
+    padding: 0.3rem;
+    border: 0.05rem solid #e3e3e3;
+    list-style: none;
+    text-align: left;
+    font-size: 1rem;
+    color: rgb(123, 123, 123);
+    transition: all 0.1s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .autoComplete_result::selection {
+    color: rgba(#ffffff, 0);
+    background-color: rgba(#228ac72a, 0);
+  }
+  
+  .autoComplete_result:last-child {
+    border-radius: 0 0 1rem 1rem;
+  }
+  
+  .autoComplete_result:hover {
+    cursor: pointer;
+    background-color: #228ac72a;
+    border-left: 2px solid #228bc7;
+    border-right: 2px solid #228bc7;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .autoComplete_result:focus {
+    outline: none;
+    background-color: #228ac72a;
+    border-left: 2px solid #228bc7;
+    border-right: 2px solid #228bc7;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .autoComplete_highlighted {
+    opacity: 1;
+    color: #228bc7;
+    font-weight: bold;
+  }
+  
+  .autoComplete_highlighted::selection {
+    color: rgba(#ffffff, 0);
+    background-color: rgba(#ffffff, 0);
+  }
+  
+  .autoComplete_selected {
+    cursor: pointer;
+    background-color: #228ac72a;
+    border-left: 2px solid #228bc7;
+    border-right: 2px solid #228bc7;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .no_result {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.3rem;
+    border: 0.05rem solid #e3e3e3bd;
+    list-style: none;
+    text-align: left;
+    font-size: 1rem;
+    color: #228bc7;
+    transition: all 0.1s ease-in-out;
+    background-color: #fff;
+    border: 1px solid #228ac79c;
+    border-radius: 0 0 1rem 1rem;
+    outline: none;
+  }
+  
+  .no_result:hover {
+    cursor: default;
+    background-color: #228ac72a;
+    border: 0.05rem solid #e3e3e3;
+  }
+  
+  .no_result:focus {
+    cursor: default;
+    background-color: #228ac72a;
+    border: 0.05rem solid #e3e3e3;
+  }
